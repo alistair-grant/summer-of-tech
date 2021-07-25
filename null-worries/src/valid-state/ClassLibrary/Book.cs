@@ -2,11 +2,13 @@
 
 namespace ValidState
 {
-    public class Book
+    public class /*struct*/ Book
     {
         public Book(string title)
         {
-            Title = title ?? throw new ArgumentNullException(nameof(title));
+            Title = title;
+
+            //Title = title ?? throw new ArgumentNullException(nameof(title));
         }
 
         public string Title { get; }

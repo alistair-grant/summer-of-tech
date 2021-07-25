@@ -8,7 +8,9 @@ namespace ValidState
     {
         public Author()
         {
-            Books = Enumerable.Empty<Book>();
+            // use default initializers
+
+            //Books = Enumerable.Empty<Book>();
         }
 
         public Author(IEnumerable<Book> books)

@@ -1,10 +1,13 @@
 ﻿using System.Linq;
 using ValidState;
 
-// run-time error
-Book a = new(null);
+Book book = new(null);
+//Book book = new("Screens");
 
-Book b = new("Screens");
+// exception: ?
+var searchTerm = "the";
+var isMatch = book.Title.Contains(searchTerm);
 
+// exception: ?
 Author author = new();
 var hasBooks = author.Books.Any();
