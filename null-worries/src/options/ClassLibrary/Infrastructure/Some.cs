@@ -6,12 +6,7 @@ namespace Options.Infrastructure
     {
         internal Some(T value)
         {
-            if (value == null)
-            {
-                throw new ArgumentNullException(nameof(value));
-            }
-
-            Value = value;
+            Value = value ?? throw new ArgumentNullException(nameof(value));
         }
 
         internal T Value { get; }
