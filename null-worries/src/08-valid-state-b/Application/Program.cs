@@ -1,4 +1,6 @@
-﻿namespace NullWorries
+﻿using System.Linq;
+
+namespace NullWorries
 {
     internal class Program
     {
@@ -9,6 +11,11 @@
 
             // how about this?
             Book b = new("Screens");
+
+            Author author = new();
+
+            // will this work?
+            var hasBooks = author.Books.Any();
         }
     }
 }
