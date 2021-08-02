@@ -1,4 +1,4 @@
-﻿namespace Options.Infrastructure
+﻿namespace NullWorries.Infrastructure
 {
     public struct None
     {

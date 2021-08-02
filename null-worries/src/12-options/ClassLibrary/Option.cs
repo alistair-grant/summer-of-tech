@@ -1,8 +1,8 @@
 ﻿using System;
 
-using static Options.F;
+using static NullWorries.F;
 
-namespace Options
+namespace NullWorries
 {
     public struct Option<T>
     {

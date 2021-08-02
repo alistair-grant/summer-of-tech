@@ -1,7 +1,6 @@
-﻿
-using Options.Infrastructure;
+﻿using NullWorries.Infrastructure;
 
-namespace Options
+namespace NullWorries
 {
     public static class F
     {

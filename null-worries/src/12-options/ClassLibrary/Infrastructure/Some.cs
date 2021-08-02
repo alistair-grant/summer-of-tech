@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Options.Infrastructure
+namespace NullWorries.Infrastructure
 {
     public struct Some<T>
     {

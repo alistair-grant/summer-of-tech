@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-using static Options.F;
+using static NullWorries.F;
 
-namespace Options
+namespace NullWorries
 {
     public static class DictionaryExtensions
     {
