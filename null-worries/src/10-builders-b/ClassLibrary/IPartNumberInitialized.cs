@@ -1,4 +1,4 @@
-﻿namespace Builders
+﻿namespace NullWorries
 {
     public interface IPartNumberInitialized : IDescriptionInitialized
     {

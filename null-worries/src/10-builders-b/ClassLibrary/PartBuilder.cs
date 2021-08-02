@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Builders
+namespace NullWorries
 {
     public class PartBuilder : IUninitialized, IPartNumberInitialized, IDescriptionInitialized, IListPriceInitialized
     {

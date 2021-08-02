@@ -1,6 +1,6 @@
-﻿namespace Builders
+﻿namespace NullWorries
 {
-    public interface IUninitialized
+    public interface  IUninitialized
     {
         IPartNumberInitialized PartNumber(string partNumber);
     }
