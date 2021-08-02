@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NullWorries.Functional;
+using System;
 using System.Collections.Generic;
 
 namespace NullWorries

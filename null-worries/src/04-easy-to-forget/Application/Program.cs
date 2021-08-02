@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using NullWorries.Helpers;
+using System.Text.RegularExpressions;
 
 namespace NullWorries
 {

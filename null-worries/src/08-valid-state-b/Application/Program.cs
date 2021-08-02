@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using NullWorries.Models;
+using System.Linq;
 
 namespace NullWorries
 {

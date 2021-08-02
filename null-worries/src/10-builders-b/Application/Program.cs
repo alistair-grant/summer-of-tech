@@ -1,4 +1,7 @@
-﻿namespace NullWorries
+﻿using NullWorries.Builders;
+using NullWorries.Models;
+
+namespace NullWorries
 {
     internal class Program
     {
